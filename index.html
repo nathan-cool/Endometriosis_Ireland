@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--Open San, Nunito family -->
@@ -12,16 +12,17 @@
 </head>
 <body>
     <header>
-    <a href="index.html"><h1 id="logo">Endo</h1></a>
+         <!-- Navbar -->
+    <a href="index.html"><h1 id="logo">Endometriosis</h1></a>
+    
+    <label for="nav-toggle" class="nav-toggle-label">III</label>
     <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">
-        <i class="fa-solid fa-ellipsis-vertical"></i>
-    </label>
-      <nav id="navbar">
-        <ul id="navlinks">
+        <nav id="navbar" role="navigation" aria-label="Main Navigation">
+       
+            <ul id="navlinks">
             <li><a class="link" href="#home">Home </a></li>
             <li><a class="link" href="#services">Services</a></li>
-            <li><a class="link" href="#contactgit ">Contact</a></li>
+            <li><a class="link" href="#contact ">Contact</a></li>
     </ul>
 </nav>
     </header>
