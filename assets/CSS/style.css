@@ -33,7 +33,7 @@ h1 {
     flex-direction: column;
     padding-top: 5px;
     padding-bottom: 5px; 
-    color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
     justify-content: center;
     align-items: center;
 }
@@ -53,7 +53,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-height: 55px;
+    height: 55px;
 }
 /*Remove styles off items in header*/
 header a {
@@ -64,13 +64,13 @@ header a {
 /*nav bar*/
 nav {
     position: absolute;
-    background-color: rgb(144,72,160);
     width: 100%;
     box-shadow: 0 2px 2px #181818;
     left: 0;
     padding: 0 1rem;
     top: 100%;
     display: none;
+
 }
 
 .nav-toggle-label {
@@ -82,12 +82,53 @@ nav {
 }
 
 #nav-toggle:checked ~ nav {
-    display: block;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #nav-toggle {
-
-display: none;;
-
+display: none;
 }
+
+.link:hover
+{
+    color: rgb(255, 232, 232);
+}
+
+@media screen and (min-width:768px)  {
+        
+    nav {
+            display: block;
+            justify-content: flex baseline;
+            box-shadow: none;
+            width: fit-content;
+            position: static;
+            padding: 0 1rem;  
+            
+        
+
+
+        }
+            
+
+
+    #navlinks {
+                flex-direction: row;
+                padding: none;
+                margin: none;
+              }
+            
+              .nav-toggle-label {
+                display: none;
+              }
+        
+
+
+    }
+
+    
+
+
+    
+    
