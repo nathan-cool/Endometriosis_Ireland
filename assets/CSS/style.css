@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 /*reset all styles*/
 * {
@@ -85,23 +86,31 @@ nav {
 #hero {
     width: 100%;
     height: 600px;
-    background: url("../images/stockvault-beach-sunrise136244.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/people-2567915.jpg") no-repeat center center/cover;
     display: flex;
-}
-
-#hero-text {
-    color: bisque;
-    background-color: #3a3a3a;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    font-size: 130%;
-    padding: 10px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    height: 150px;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
+
+#herotext {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 105%;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+#herotext h2{
+    padding-bottom: 15px;
+    text-transform: uppercase;
+
+}
+
+    
 
 #nav-toggle:checked ~ nav {
     display: flex;
@@ -128,9 +137,6 @@ display: none;
             position: static;
             padding: 0 1rem;  
         }
-            
-
-
      #navlinks {
                 flex-direction: row;
                 padding: none;
@@ -141,7 +147,12 @@ display: none;
                 display: none;
               }
         
-
+              #herotext {
+        
+                font-size: 150%;
+                
+                
+            }
 
     }
 
