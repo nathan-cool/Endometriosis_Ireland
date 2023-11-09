@@ -101,16 +101,14 @@ nav {
     font-size: 105%;
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
+    line-height: 30px;
 }
 
 #herotext h2{
     padding-bottom: 15px;
     text-transform: uppercase;
-
 }
 
-    
 
 #nav-toggle:checked ~ nav {
     display: flex;
@@ -126,6 +124,32 @@ display: none;
 {
     color: rgb(121, 121, 121);
 }
+
+/*About Section*/
+#about{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200px 40px;
+    background-color: #fafafa;
+    line-height: 25px;
+}
+
+#about h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: #000000 solid 1px;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+#about p{
+    padding-top: 30px;
+}
+
+
 
 @media screen and (min-width:768px)  {
         
