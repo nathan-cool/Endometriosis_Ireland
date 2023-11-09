@@ -221,6 +221,34 @@ nav {
     width: 90%;
 }
 
+/***** Responsive info *****/
+
+#info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color:#fafafa;
+
+}
+
+.infocolums {
+    margin: 40px;
+    flex-grow: 1;
+    min-width: 40%;
+    max-width: 25%;
+}
+
+.infoheading {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+
+}
 
 
 
