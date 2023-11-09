@@ -133,20 +133,25 @@ display: none;
     padding: 200px 40px;
     background-color: #fafafa;
     line-height: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.041);
+
 }
 
 #about h2{
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 2px;
-    border-bottom: #000000 solid 1px;
+    border-bottom: #9c2cf7 solid 1px;
     padding-bottom: 20px;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
+    font-size: 1rem;
     
 }
 
 #about p{
     padding-top: 30px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -177,7 +182,13 @@ display: none;
                 
                 
             }
+            #about h2{
+                font-size: 1.5rem;
+            }
 
+            #about p{
+                width: 50%;
+            }
     }
 
     
