@@ -204,6 +204,7 @@ nav {
 .images:hover{
     color: #000000;
 }
+/***** Responsive images text *****/
 
 .images {
     display: flex;
