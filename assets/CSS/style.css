@@ -80,18 +80,18 @@ nav {
 }
 
 #nav-toggle:checked ~ nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #nav-toggle {
-    display: none;
-  }
-  
-  .link:hover {
-    color: rgb(121, 121, 121);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.link:hover {
+  color: rgb(121, 121, 121);
+}
 
 /***** Hero Image and text ******/
 
@@ -122,7 +122,6 @@ nav {
   text-transform: uppercase;
 }
 
-
 /***** About Section *****/
 
 #about {
@@ -152,8 +151,8 @@ nav {
 /***** Responsive images section and container *****/
 
 #responsiveimages {
-    padding: 100px 40px;
-  }
+  padding: 100px 40px;
+}
 
 #imagescontainer {
   display: flex;
@@ -164,97 +163,107 @@ nav {
 .images {
   margin: 0 auto;
   margin-bottom: 100px;
-  
   height: 300px;
   width: 400px;
-
 }
 
 /***** Responsive images images*****/
 
 #image1 {
-  background:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pexels-anna-tarazevich-5483021.jpg") no-repeat
-    center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/pexels-anna-tarazevich-5483021.jpg") no-repeat center
+      center/cover;
 }
 #image2 {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Women-on-laptop.jpg") no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Women-on-laptop.jpg") no-repeat center center/cover;
 }
 
 #image3 {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Donation Phone.jpg") no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Donation Phone.jpg") no-repeat center center/cover;
 }
 
 /***** Responsive images hover *****/
 
-#image1:hover{
-    transform: scale(1.05);
-    background: linear-gradient(to bottom, rgba(243, 161, 161, 0.5), rgba(227, 79, 79, 0.5)), url("../images/pexels-anna-tarazevich-5483021.jpg") no-repeat
-    center center/cover;
+#image1:hover {
+  transform: scale(1.05);
+  background: linear-gradient(
+      to bottom,
+      rgba(243, 161, 161, 0.5),
+      rgba(227, 79, 79, 0.5)
+    ),
+    url("../images/pexels-anna-tarazevich-5483021.jpg") no-repeat center
+      center/cover;
 }
 
-#image2:hover{
-    transform: scale(1.05);
-    background: linear-gradient(to bottom, rgba(213, 161, 243, 0.285), rgba(187, 79, 227, 0.234)), url("../images/Women-on-laptop.jpg") no-repeat center center/cover;
+#image2:hover {
+  transform: scale(1.05);
+  background: linear-gradient(
+      to bottom,
+      rgba(213, 161, 243, 0.285),
+      rgba(187, 79, 227, 0.234)
+    ),
+    url("../images/Women-on-laptop.jpg") no-repeat center center/cover;
 }
 
-#image3:hover{
-    transform: scale(1.05);
-    background: linear-gradient(to bottom, rgba(72, 136, 255, 0.482), rgba(142, 163, 255, 0.372)), url("../images/Donation Phone.jpg") no-repeat center center/cover;
+#image3:hover {
+  transform: scale(1.05);
+  background: linear-gradient(
+      to bottom,
+      rgba(72, 136, 255, 0.482),
+      rgba(142, 163, 255, 0.372)
+    ),
+    url("../images/Donation Phone.jpg") no-repeat center center/cover;
 }
-.images:hover{
-    color: #000000;
+.images:hover {
+  color: #000000;
 }
 /***** Responsive images text *****/
 
 .images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fafafa;
-    text-align: center;
-    font-size: large;
-   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fafafa;
+  text-align: center;
+  font-size: large;
 }
 
-.images p{
-    padding: 20px;
-    width: 90%;
+.images p {
+  padding: 20px;
+  width: 90%;
 }
 
-/***** Responsive info *****/
+/***** Responsive info section *****/
 
 #info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: left;
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-    background-color:#fafafa;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  background-color: #fafafa;
 }
 
-.infocolums {
-    margin: 40px;
-    flex-grow: 1;
-    min-width: 40%;
-    max-width: 25%;
+.infocolumns {
+  padding: 40px;
+  flex-grow: 1;
+  max-width: 100%;
 }
 
 .infoheading {
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 30px;
-
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
-
-
-
-
-
+.infocolumns p {
+  line-height: 25px;
+}
 
 @media screen and (min-width: 768px) {
   nav {
@@ -284,5 +293,8 @@ nav {
 
   #about p {
     width: 50%;
+  }
+  .infocolumns {
+    max-width: 50%;
   }
 }
