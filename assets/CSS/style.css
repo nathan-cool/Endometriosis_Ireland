@@ -142,7 +142,7 @@ display: none;
     letter-spacing: 2px;
     border-bottom: #9c2cf7 solid 1px;
     padding-bottom: 20px;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     font-size: 1rem;
     
@@ -150,7 +150,7 @@ display: none;
 
 #about p{
     padding-top: 30px;
-    width: 70%;
+   
     margin: 0 auto;
 }
 
