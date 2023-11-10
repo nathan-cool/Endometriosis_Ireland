@@ -71,6 +71,7 @@ nav {
   padding: 0 1rem;
   top: 100%;
   display: none;
+  background-color: #ffffff;
 }
 
 /****** navbar burger size *****/
@@ -94,7 +95,7 @@ nav {
 /***** Navbar highlight color *****/
 
 .link:hover {
-  color: rgb(121, 121, 121);
+  color: rgb(155, 155, 155);
 }
 
 /***** Hero Image ******/
@@ -183,6 +184,12 @@ nav {
   color: #fafafa;
   text-align: center;
   font-size: large;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 3px;git 
+}
+
+.images:hover {
+  transform: scale(1.1);
 }
 /***** Responsive images paragraphs*****/
 .images p {
@@ -207,41 +214,7 @@ nav {
     url("../images/Donation Phone.jpg") no-repeat center center/cover;
 }
 
-/***** Responsive images hover *****/
 
-#image1:hover {
-  transform: scale(1.05);
-  background: linear-gradient(
-      to bottom,
-      rgba(243, 161, 161, 0.5),
-      rgba(227, 79, 79, 0.5)
-    ),
-    url("../images/pexels-anna-tarazevich-5483021.jpg") no-repeat center
-      center/cover;
-}
-
-#image2:hover {
-  transform: scale(1.05);
-  background: linear-gradient(
-      to bottom,
-      rgba(213, 161, 243, 0.285),
-      rgba(187, 79, 227, 0.234)
-    ),
-    url("../images/Women-on-laptop.jpg") no-repeat center center/cover;
-}
-
-#image3:hover {
-  transform: scale(1.05);
-  background: linear-gradient(
-      to bottom,
-      rgba(72, 136, 255, 0.482),
-      rgba(142, 163, 255, 0.372)
-    ),
-    url("../images/Donation Phone.jpg") no-repeat center center/cover;
-}
-.images:hover {
-  color: #000000;
-}
 
 /***** Responsive info section with flexwrap*****/
 
@@ -251,8 +224,8 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  text-align: left;
-  font-size: 16px;
+  text-align: center;
+  font-size: 14px;
   color: rgb(0, 0, 0);
   background-color: #fafafa;
 }
@@ -266,12 +239,43 @@ nav {
 .infoheading {
   margin-bottom: 30px;
   text-align: center;
-  font-size: 30px;
+  font-size: 120%;
 }
 
 .infocolumns p {
   line-height: 25px;
 }
+
+/***** Footer *****/
+footer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /***** Footer Links *****/
+  #footerlinks {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  #footerlinks li {
+    display: flex;
+    padding: 10px;
+
+  }
+  
+  #footerlinks a {
+    text-decoration: none;
+    display: flex;
+    color: #000000;
+    font-size: 150%;
+  }
 
 /***** Media *****/
 @media screen and (min-width: 768px) {
@@ -306,4 +310,6 @@ nav {
   .infocolumns {
     max-width: 50%;
   }
+  #info {
+    font-size: 16px;
 }
