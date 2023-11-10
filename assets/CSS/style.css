@@ -41,7 +41,8 @@ h1 {
   margin-bottom: 0rem;
   padding-right: 20px;
 }
-/*Nav bar strut*/
+
+/*Header stucture*/
 header {
   background-color: rgb(255, 255, 255);
   padding: 0 1rem;
@@ -54,13 +55,14 @@ header {
   align-items: center;
   height: 55px;
 }
+
 /*Remove styles off items in header*/
 header a {
   text-decoration: none;
   color: inherit;
 }
 
-/*nav bar*/
+/****** navbar *****/
 nav {
   position: absolute;
   width: 100%;
@@ -71,13 +73,13 @@ nav {
   display: none;
 }
 
+/****** navbar burger size *****/
+
 .nav-toggle-label {
   font-size: 2rem;
 }
 
-.active {
-  border-bottom: #000000 1px solid;
-}
+/****** navbar burger press *****/
 
 #nav-toggle:checked ~ nav {
   display: flex;
@@ -89,11 +91,13 @@ nav {
   display: none;
 }
 
+/***** Navbar highlight color *****/
+
 .link:hover {
   color: rgb(121, 121, 121);
 }
 
-/***** Hero Image and text ******/
+/***** Hero Image ******/
 
 #hero {
   width: 100%;
@@ -106,6 +110,7 @@ nav {
   color: rgb(255, 255, 255);
   text-align: center;
 }
+/***** Hero Image Text ******/
 
 #herotext {
   font-family: "Montserrat", sans-serif;
@@ -116,6 +121,8 @@ nav {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   line-height: 30px;
 }
+
+/***** Hero Image Text Heading ******/
 
 #herotext h2 {
   padding-bottom: 15px;
@@ -134,6 +141,8 @@ nav {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.041);
 }
 
+/***** About Section Heading ******/
+
 #about h2 {
   text-transform: capitalize;
   letter-spacing: 2px;
@@ -144,27 +153,41 @@ nav {
   font-size: 1rem;
 }
 
+/***** About Section Paragraph ******/
+
 #about p {
   padding-top: 30px;
   margin: 0 auto;
 }
-/***** Responsive images section and container *****/
+/***** Responsive images on home page*****/
 
 #responsiveimages {
   padding: 100px 40px;
 }
 
+/***** Responsive images container*****/
 #imagescontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+/***** Responsive image size and text *****/
 .images {
   margin: 0 auto;
   margin-bottom: 100px;
   height: 300px;
   width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fafafa;
+  text-align: center;
+  font-size: large;
+}
+/***** Responsive images paragraphs*****/
+.images p {
+  padding: 20px;
+  width: 90%;
 }
 
 /***** Responsive images images*****/
@@ -219,23 +242,8 @@ nav {
 .images:hover {
   color: #000000;
 }
-/***** Responsive images text *****/
 
-.images {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fafafa;
-  text-align: center;
-  font-size: large;
-}
-
-.images p {
-  padding: 20px;
-  width: 90%;
-}
-
-/***** Responsive info section *****/
+/***** Responsive info section with flexwrap*****/
 
 #info {
   display: flex;
@@ -265,6 +273,7 @@ nav {
   line-height: 25px;
 }
 
+/***** Media *****/
 @media screen and (min-width: 768px) {
   nav {
     display: block;

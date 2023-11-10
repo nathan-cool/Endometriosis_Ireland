@@ -13,11 +13,12 @@
 <body>
     <header>
          <!-- Navbar -->
-    <a href="index.html"><h1 id="logo">Endometriosis</h1></a>
+    
+         <a href="index.html"><h1 id="logo">Endometriosis</h1></a>
     
     <label for="nav-toggle" class="nav-toggle-label"><i class="fa-sharp fa-solid fa-bars"></i></label>
     <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <nav id="navbar" role="navigation" aria-label="Main Navigation">
+        <nav id="navbar" role="navigation" aria-label="Main Navigation" roll="Nav bar">
             <ul id="navlinks">
             <li><a class="link" href="#home">Home </a></li>
             <li><a class="link" href="#services">Services</a></li>
@@ -27,30 +28,35 @@
 </nav>
     </header>
         <!-- HeroImage -->
+       
         <main>
-            <section id="hero">
+            <section id="hero" roll="Banner">
                 <div id="herotext">
                     <h2>Endometriosis Ireland</h2>
                     <h3>Hope, Support, and Empowerment for Women's Health</h3>
                 </div>
             </Section>
             <!-- About Section -->
-            <section id="about">
+            
+            <section id="about" roll="About us text">
                 <div id="abouttext">
                     <h2>who is endometriosis ireland </h2>
                     <p>Endometriosis Ireland is a non-profit organisation that aims to help women and girls in Ireland to improve their health and wellbeing. We are a non-profit organisation that aims to help women and girls in Ireland to improve their health and wellbeing.</p>
                 </div>
             </section>
+            
             <!-- How to help section, with three images -->
-            <section id="responsiveimages">
-                <h2></h2>
+            
+            <section id="responsiveimages" roll="Clickable images">
                 <div id="imagescontainer">
-                    <div id="image1" class="images" alt="Women laughing"><p>Discover the Fulfillment of Making a Difference: Get Involved Today</p></div>
-                    <div id="image2" class="images" alt="Women on laptop"><p>Unleash the Power of Unity: Join Our Community for Shared Goals and Values</p></div>
-                    <div id="image3" class="images" alt="Women on phone"><p>Make Your Click Count by Supporting Causes That Matter to You</p></div>
+                    <div id="image1" class="images" alt="Women laughing" role="img" aria-label="Three women laughing"><p>Discover the Fulfillment of Making a Difference: Get Involved Today</p></div>
+                    <div id="image2" class="images" alt="Women on laptop"role="img" aria-label="Woman at PC smiling"><p>Unleash the Power of Unity: Join Our Community for Shared Goals and Values</p></div>
+                    <div id="image3" class="images" alt="Women on phone" role="img" aria-label="Woman looking at here phone"><p>Make Your Click Count by Supporting Causes That Matter to You</p></div>
                 </div>
             </section>
             
+            <!-- information section -->
+
             <section id="info">
 
                 <div id="Info1" class="infocolumns">
@@ -77,6 +83,30 @@
                  </div>
             </section>
         </main>
+        <footer>
+            <ul id="footerlinks">
+              <li>
+                <a href="index.html" target="_blank" aria-label="Visit our Facebook"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="index.html" target="_blank" aria-label="Visit our Instagram"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="index.html" target="_blank" aria-label="Visit our Twitter"
+                  ><i class="fa-brands fa-twitter"></i
+                >  </a>
+              </li>
+              <li>
+                <a href="index.html" target="_blank" aria-label="Visit our Youtube"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </footer>
     
     <script src="https://kit.fontawesome.com/0ad5ba8600.js" crossorigin="anonymous"></script>
 </body>
