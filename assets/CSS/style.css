@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 
+
 /*reset all styles*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,8 +23,28 @@ body {
 /*Logo lettering*/
 h1 {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+p{
   font-size: 1rem;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+a{
+  text-decoration: none;
 }
 
 /*Nav bar links lettering*/
@@ -127,9 +151,8 @@ nav {
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
-  font-size: 105%;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.150);
+  letter-spacing: 0.1rem;
+  
   line-height: 30px;
 }
 
@@ -146,8 +169,8 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 200px 40px;
-  background-color: #fafafa;
+  padding: 20% 40px;
+  background-color: #F4F1DE;
   line-height: 25px;
   
 }
@@ -157,11 +180,11 @@ nav {
 #about h2 {
   text-transform: capitalize;
   letter-spacing: 2px;
-  border-bottom: #9c2cf7 solid 1px;
+  border-bottom: #3D405B solid 1px;
   padding-bottom: 20px;
   width: 50%;
   margin: 0 auto;
-  font-size: 1rem;
+  
 }
 
 /***** About Section Paragraph ******/
@@ -169,12 +192,15 @@ nav {
 #about p {
   padding-top: 30px;
   margin: 0 auto;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.150);
+
 }
 /***** Responsive images on home page*****/
 
 #responsiveimages {
-  padding: 100px 40px;
+  padding: 50px;
+  background-color: white;
+  padding: 100px;
+  margin: 0 auto;
 }
 
 /***** Responsive images container*****/
@@ -185,18 +211,19 @@ nav {
 }
 /***** Responsive image size and text *****/
 .images {
-  margin: 0 auto;
-  margin-bottom: 100px;
-  height: 300px;
-  width: 400px;
+
+  height: 275px;
+  width: 325px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fafafa;
+  color: #ffffff;
   text-align: center;
   font-size: large;
   transition: transform 0.3s ease-in-out;
   border-radius: 3px;
+  margin: 1rem;
+  padding: 10px;
 }
 
 .images:hover {
@@ -236,29 +263,30 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   text-align: left;
-  font-size: 14px;
-  color: rgb(255, 255, 255);
-  background-color: #0d1321;
-  
+  color: #ffffff;
+  background-color: #3D405B;
+padding: 5rem;
   
 }
 
 .infocolumns {
-  padding: 2rem;
+  padding: 3rem;
   flex-grow: 1;
-  width: 1000px
-
+  width: 1000px;
+  font-size: 1.5rem;
 }
 
 .infoheading {
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
   text-align: center;
-  font-size: 120%;
+  border-bottom: #ffffff solid 1px;
+  padding-bottom: 1rem;
 }
 
 .infocolumns p {
   line-height: 25px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.150);
+  font-size: 1rem;
 }
 
 /***** Contact us section *****/
@@ -271,7 +299,7 @@ nav {
 }
 #formcontainr{
 width: 100%;
-background-color:#f0ebd8;
+background-color:#E07A5F;
 }
 
 
@@ -280,19 +308,67 @@ background-color:#f0ebd8;
   justify-content: center;
   align-items: center;
   padding: 1em;
-
   flex-direction: column;
   margin: auto;
   margin-top: 100px;
   flex-grow: 1;
-  max-width: 800px;
+  max-width: 80%;
   width: 100%;
 }
 
+#donate{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20% 40px;
+  background-color: #F4F1DE;
+  line-height: 25px;
+  width: 100%;
+}
+
+#donate h2 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border-bottom: #3D405B solid 1px;
+  padding-bottom: 20px;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+#donate p {
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 19px;
+
+}
+
+#donotebutton{
+  width: 200px;
+  height: 50px;
+  background-color: #E07A5F;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  margin: 1rem;
+  padding: 10px;
+  font-size: 1rem;
+  
+}
+
+#donotebutton:hover{
+  background-color: #3D405B;
+  color: #E07A5F;
+}
+
+
 #contactformheader{
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   text-align: center;
   margin-bottom: 2rem;
+  border-bottom: #2E4052 solid 1px;
+  padding-bottom: 2.5rem;
   }
 
   
@@ -316,14 +392,26 @@ background-color:#f0ebd8;
   }
   
   #button{
-      width: 100px;
-      margin: 0 auto;
-      padding: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: #2E4052;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    margin: 1rem;
+    padding: 10px;
+  }
+
+  #button:hover{
+    background-color: #E07A5F;
+    color: #2E4052;
+    border: 1px solid #2E4052;
+    
   }
 
   #lastbreak{
     width: 100%;
-    border-top: #9c2cf7 solid 1px;
+    border-top: #2E4052 solid 1px;
     padding-top: 33px;
     display: flex;
     justify-content: center;
