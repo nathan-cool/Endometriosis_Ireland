@@ -102,6 +102,11 @@ nav {
 .link:hover {
   color: rgb(155, 155, 155);
 }
+/***** Active page *****/
+#active{
+    border-bottom:#000000 1px solid;
+}
+
 
 /***** Hero Image ******/
 
