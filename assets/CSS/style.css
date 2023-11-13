@@ -9,7 +9,7 @@
 }
 
 body {
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   color: black;
@@ -284,6 +284,42 @@ footer {
     color: #000000;
     font-size: 150%;
   }
+
+/***** Contact us page form *****/
+
+#form{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1em;
+max-width: 700px;
+background-color: #fafafa;
+flex-direction: column;
+margin: auto;
+height: 100%;
+margin-top: 100px;
+}
+
+.formfield{
+    width:100%;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#message{
+    height: 150px;
+    width: 100%;
+
+}
+
+#button{
+    width: 150px;
+    margin: 0 auto;
+    
+}
 
 /***** Media *****/
 @media screen and (min-width: 768px) {
