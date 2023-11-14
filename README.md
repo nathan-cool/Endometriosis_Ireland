@@ -50,17 +50,15 @@ Wireframes
 
 
 # Color Scheme
-
 - The website's colour scheme is colourful yet elegant.
 - The colours of each section are in contrast to one another.
 
 # Typography
-
 - For this website, Open Sans Light was chosen for headings to complement the minimalist and elegant design.
+- The regular font weight of Open Sans was chosen for everything else. 
 
 # Imagery
-
-- Imagery for this website was taken form various stock photos website which are referenced in the credits section.
+- Imagery for this website was taken from various stock photos website which are referenced in the credits section.
 - Images were selected to match the website's theme, with a transparent black overlay added to ensure the legibility of the text.
 - The hero image was selected to provide a vibrant and colourful introduction to my website, while still maintaining the website's theme.
 
@@ -73,7 +71,7 @@ Wireframes
 
 # Design choices
 - The website is consistent across all screen sizes as much as possible.
-- I created clickable images that change their behavior when hovered over.
+- I created clickable images that change their behaviour when hovered over.
 - I redesigned the website as a single page with a navigation bar linking to each section
 - The design has been kept as minimalistic as possible to ensure easy navigation. Any unnecessary clutter has been removed to make it easier for users to find their way around.
 
@@ -82,11 +80,51 @@ Wireframes
   - The logo on the top right is easy to locate and will link back to the hero image.
   - Each section of the website will have a link on the navigation bar that leads directly to it.
   - On smaller screens, a 'Burger' toggle reveals a navigation menu.
-  - When you hover over the navigation menu, the links will change color to indicate which one you are about to select.
+  - When you hover over the navigation menu, the links will change colour to indicate which one you are about to select.
  
-  # Hero image
-  - Under the navigation bar the hero image will appear this is a colorful image to give a warm greeting to the website 
-  - The hero image has a black transperant overlay to help with the contrast bewttwen the message that is displayed and the image itself
-  - This hero image only appears on the index.html. The 404 error page will not display this image.
+  # Hero Image
+- The hero image appears right below the navigation bar on the index.html page. It is a colourful image meant to give a warm welcome to the website.
+- A black transparent overlay is used to enhance the contrast between the message displayed and the image itself.
+- The 404 error page will not display the hero image.
+
+# About Section
+- This section provides a brief introduction to Endometriosis Ireland, explaining who they are and what they do.
+- The text is responsive across all screen sizes.
+
+# Images Section
+- Three clickable images are displayed in this section, which takes the user to official Endometriosis Ireland pages.
+- The images are responsive and expand into a row on bigger screens and a column on smaller screens.
+- A black transparent overlay is used to ensure a contrast between the message displayed and the image itself.
+- The images have a hover effect to indicate that they are clickable.
+
+# Information Section
+- This section comprises four subsections that provide basic information about Endometriosis.
+- The background is grey with white text to ensure a clear contrast between the background and text.
+- The section is responsive and dynamically adjusts to display all four boxes in a row.
+
+# Donate Section
+- This section prompts the user to donate to the Endometriosis Ireland page.
+- The button is responsive and adapts to different screen sizes.
+- The button links to the official Endometriosis Ireland donate page.
+- The background and text colours are chosen to ensure clear contrast.
+- The button inverts colours on hover to indicate that it is clickable.
+
+# Contact Us Section
+- This section provides a way for the user to contact Endometriosis Ireland for more information or to volunteer.
+- Asterisks are used to mark the input fields that are required to be filled.
+- The input fields adjust to available space on the device, growing on bigger devices and shrinking on smaller ones.
+- Each input field has a title, which appears inside the box.
+- The background colour is orange, and the text is black to ensure clear contrast.
+- The button inverts colours on hover to indicate that it is clickable.
+
+# Footer
+- The footer has a minimal design and links to the social media accounts of Endometriosis Ireland.
+- The social media links are black icons with a hover effect to indicate that they are clickable.
+- The icons stack on smaller screens and grow into a row on bigger screens.
  
-  # Information Section
+    
+ 
+  
+    
+  
+    
