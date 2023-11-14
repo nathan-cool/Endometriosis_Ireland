@@ -1,17 +1,18 @@
+/*Imports google fonts Open Sans*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
-
 
 /*reset all styles*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+
 }
 
+/*Scroll effect set to smooth*/
 html{
   scroll-behavior: smooth;
+
 }
 
 body {
@@ -20,6 +21,9 @@ body {
   flex-direction: column;
   color: black;
   font-family: "Open Sans", sans-serif;
+
+
+  
 }
 
 /*Logo lettering*/
@@ -27,29 +31,33 @@ h1 {
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 300;
+ 
 }
 
+/*h2 font size and weight*/
 h2{
   font-size: 1.5rem;
   font-weight: 300;
 }
 
+/*h3 font size and weight*/
 h3{
   font-size: 1.3rem;
   font-weight: 300;
 }
-
+/*p font size and weight*/
 p{
   font-size: 1rem;
   text-decoration: none;
   font-weight: 300;
 }
 
+/*No text decoration on links*/
 a{
   text-decoration: none;
 }
 
-/*Nav bar links lettering*/
+/*Navbar links lettering*/
 #navlinks {
   letter-spacing: 2px;
   list-style-type: none;
@@ -61,19 +69,11 @@ a{
   color: rgb(3, 3, 3);
   justify-content: center;
   align-items: center;
-
-
 }
 
-#navlinks > li {
-  margin-bottom: 0rem;
-  padding-right: 20px;
-
-}
-
-/*Header stucture*/
+/*Header structure*/
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: #F4F1DE;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -83,7 +83,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 55px;
-  
+  display: flex;
 }
 
 /*Remove styles off items in header*/
@@ -92,7 +92,7 @@ header a {
   color: inherit;
 }
 
-/****** navbar *****/
+/****** Navbar *****/
 nav {
   position: absolute;
   width: 100%;
@@ -101,42 +101,45 @@ nav {
   padding: 0 1rem;
   top: 100%;
   display: none;
-  background-color: #ffffff;
+  background-color:#F4F1DE;
+  
 }
 
-/****** navbar burger size *****/
+/*Navbar links*/
+#navlinks > li {
+  margin-bottom: 0rem;
+  padding-right: 20px;
+}
 
+/*Navbar burger size*/
 .nav-toggle-label {
   font-size: 2rem;
 }
 
-/****** navbar burger press *****/
-
+/*Navbar burger press*/
 #nav-toggle:checked ~ nav {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
-  
 }
 
 #nav-toggle {
   display: none;
 }
 
-/***** Navbar highlight color *****/
-
+/*Navbar highlight color*/
 .link:hover {
   color: rgb(155, 155, 155);
 }
-/***** Active page *****/
+
+/*Active page*/
 #active{
-    border-bottom:#000000 1px solid;
+    border-bottom: #2E4052 1px solid;
 }
 
 
-/***** Hero Image ******/
-
-#hero {
+/*Hero Image*/
+#hero{
   width: 100%;
   height: 700px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -147,103 +150,103 @@ nav {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-/***** Hero Image Text ******/
 
+/*Hero Image Text*/
 #herotext {
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
   letter-spacing: 0.1rem;
-  
   line-height: 30px;
 }
 
-/***** Hero Image Text Heading ******/
-
+/*Hero Image Text Heading*/
 #herotext h2 {
   padding-bottom: 15px;
   text-transform: uppercase;
 }
 
-/***** About Section *****/
-
+/*About Section*/
 #about {
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 20% 40px;
   background-color: #F4F1DE;
   line-height: 25px;
-  
+  color: #2E4052  ;
 }
 
-/***** About Section Heading ******/
-
+/*About Section Heading*/
 #about h2 {
   text-transform: capitalize;
   letter-spacing: 2px;
   border-bottom: #3D405B solid 1px;
   padding-bottom: 20px;
-  width: 50%;
-  margin: 0 auto;
-  
+  max-width: 60%;
+  margin: 0 auto; 
 }
 
-/***** About Section Paragraph ******/
-
+/*About Section Paragraph*/
 #about p {
   padding-top: 30px;
   margin: 0 auto;
-
 }
-/***** Responsive images on home page*****/
 
+/*Responsive Images*/
 #responsiveimages a{
   display: flex;
-  background-color: white;
   padding: 1rem;;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #E07A5F;
 
+  
 }
 
-/***** Responsive images container*****/
+#responsiveimages{
+  background-color: #E07A5F;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  
+  
+}
 
-
-
+/*Responsive images container*/
 #imagescontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
-/***** Responsive image size and text *****/
+
+/*Responsive image size and text*/
 .images {
-  width: 400px;
-  height: 300px;
   
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: #F4F1DE;
+;
   text-align: center;
   font-size: large;
   transition: transform 0.3s ease-in-out;
   border-radius: 3px;
-  margin: 1rem;
-  padding: 1rem;;
+  margin: 2rem;
+  width: 350px;
+  height: 300px;
 }
 
+/*Responsive image hover effect*/
 .images:hover {
   transform: scale(1.1);
 }
-/***** Responsive images paragraphs*****/
-.images p {
-  padding: 20px;
+
+/*Responsive images paragraphs*/
+.images h3 {
   width: 90%;
 }
 
-/***** Responsive images images*****/
-
+/*Responsive images images*/
 #image1 {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/pexels-anna-tarazevich-5483021.jpg") no-repeat center
@@ -259,58 +262,102 @@ nav {
     url("../images/Donation Phone.jpg") no-repeat center center/cover;
 }
 
-
-
-/***** Responsive info section with flexwrap*****/
-
+/*Info section*/
 #info {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  text-align: left;
-  color: #ffffff;
+  text-align: center;
+  color:#F4F1DE;
   background-color: #3D405B;
-  padding: 2rem;
-  
+  flex-wrap: wrap;
 }
 
-.infocolumns {
+
+/*Info box*/
+.infobox{
   padding: 3rem;
-  flex-grow: 1;
-  width: 1000px;
   font-size: 1.5rem;
 }
 
+/*Info headings*/
 .infoheading {
   margin-bottom: 1.5rem;
   text-align: center;
-  border-bottom: #ffffff solid 1px;
-  padding-bottom: 1rem;
+  border-bottom: #F4F1DE; solid 1px;
+  padding-bottom: 1.5rem;
 }
 
-.infocolumns p {
+
+
+/*Info paragraphs*/
+.infobox p {
   line-height: 25px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.150);
+}
+
+/*Donate section*/
+#donate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20% 40px;
+  background-color: #F4F1DE;
+  line-height: 25px;
+  color: #2E4052  ;
+}
+
+
+
+/*Donate section heading*/
+#donate h2 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border-bottom: #3D405B solid 1px;
+  padding-bottom: 20px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+
+/*Donate section paragraphs*/
+#donate p {
+  padding-top: 30px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+
+/*Donate button*/
+#donotebutton{
+  width: 200px;
+  height: 50px;
+  background-color: #E07A5F;
+  color: #F4F1DE;;
+  border: none;
+  border-radius: 3px;
   font-size: 1rem;
 }
 
-/***** Contact us section *****/
+/*Donate button hover affect*/
+#donotebutton:hover{
+  background-color: #3D405B;
+  color: #E07A5F;
+}
+
+/*Contact us section*/
 #contactus{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 100%;
+  background-color:#E07A5F;
+  color: #F4F1DE;
 }
 
-#formcontainr{
-width: 100%;
-background-color:#E07A5F;
-}
-
-
+/*Contact us form*/
 #form{
   display: flex;
   justify-content: center;
@@ -322,54 +369,11 @@ background-color:#E07A5F;
   flex-grow: 1;
   max-width: 80%;
   width: 100%;
-}
-
-#donate{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20% 40px;
-  background-color: #F4F1DE;
-  line-height: 25px;
-  width: 100%;
-}
-
-#donate h2 {
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  border-bottom: #3D405B solid 1px;
-  padding-bottom: 20px;
-  width: 50%;
-  margin: 0 auto;
-  
-}
-
-#donate p {
-  padding-top: 30px;
-  margin: 0 auto;
-  width: 80%;
-  padding-bottom: 19px;
-
-}
-
-#donotebutton{
-  width: 200px;
-  height: 50px;
-  background-color: #E07A5F;
-  color: #ffffff;
-  border: none;
-  border-radius: 3px;
-  
-  font-size: 1rem;
-  
-}
-
-#donotebutton:hover{
-  background-color: #3D405B;
-  color: #E07A5F;
+  color: #F4F1DE;
 }
 
 
+/*Contact us header*/
 #contactformheader{
   font-size: 1.5rem;
   text-align: center;
@@ -379,36 +383,37 @@ background-color:#E07A5F;
   }
 
   
-  
-  .formfield{
-      width:100%;
-      padding: 15px;
-      margin: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 16px;
-      max-width: 1000px;
-    
+  /*Contact us form fields*/
+.formfield{
+  width:100%;
+  padding: 15px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  max-width: 1000px;
+  background-color: #F4F1DE;
   }
   
+  /*Contact us message box*/
   #message{
-      height: 150px;
-      width: 100%;
-     
-  
+    height: 150px;
+    width: 100%;
   }
   
-  #button{
-    width: 200px;
-    height: 50px;
-    background-color: #2E4052;
-    color: #ffffff;
-    border: none;
-    border-radius: 3px;
-    margin: 1rem;
-    padding: 10px;
+  /*Contact us send button*/
+#button{
+  width: 200px;
+  height: 50px;
+  background-color: #2E4052;
+  color: #F4F1DE;;
+  border: none;
+  border-radius: 3px;
+  margin: 1rem;
+  padding: 10px;
   }
 
+  /*Contact us send button hover effect*/
   #button:hover{
     background-color: #E07A5F;
     color: #2E4052;
@@ -416,6 +421,7 @@ background-color:#E07A5F;
     
   }
 
+  /*Contact us form border above button*/
   #lastbreak{
     width: 100%;
     border-top: #2E4052 solid 1px;
@@ -425,40 +431,40 @@ background-color:#E07A5F;
   }
 
 
-/***** Footer *****/
+/*Footer*/
 footer {
-    background-color: #ffffff;
+    background-color: #F4F1DE;;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
-  /***** Footer Links *****/
-  #footerlinks {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+/*Footer Links*/
+#footerlinks {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;    
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   }
   
+/*Footer list*/
   #footerlinks li {
     display: flex;
     padding: 10px;
-
   }
   
+  /*Footer Links Links*/
   #footerlinks a {
     text-decoration: none;
     display: flex;
-    color: #000000;
+    color: #2E4052;
     font-size: 150%;
   }
 
+/*Media*/
 
-
-/***** Media *****/
 @media screen and (min-width: 768px) {
   nav {
     display: block;
@@ -488,16 +494,14 @@ footer {
   #about p {
     width: 50%;
   }
-  .infocolumns {
+  .infobox {
     max-width: 50%;
+    text-align: left;
   }
   #info {
     padding: 2rem;
 
 }
 #donate p{
-  width: 50%;
+  max-width: 50%;
 }
-
-
-
