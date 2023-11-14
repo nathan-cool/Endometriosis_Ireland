@@ -7,7 +7,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -51,7 +53,7 @@ a{
 #navlinks {
   letter-spacing: 2px;
   list-style-type: none;
-  font-size: 110%;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   padding-top: 5px;
@@ -196,24 +198,29 @@ nav {
 }
 /***** Responsive images on home page*****/
 
-#responsiveimages {
-  padding: 50px;
+#responsiveimages a{
+  display: flex;
   background-color: white;
-  padding: 100px;
-  margin: 0 auto;
+  padding: 1rem;;
+  justify-content: space-between;
+
 }
 
 /***** Responsive images container*****/
+
+
+
 #imagescontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 /***** Responsive image size and text *****/
 .images {
-
-  height: 275px;
-  width: 325px;
+  width: 400px;
+  height: 300px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,7 +230,7 @@ nav {
   transition: transform 0.3s ease-in-out;
   border-radius: 3px;
   margin: 1rem;
-  padding: 10px;
+  padding: 1rem;;
 }
 
 .images:hover {
@@ -265,7 +272,7 @@ nav {
   text-align: left;
   color: #ffffff;
   background-color: #3D405B;
-padding: 5rem;
+  padding: 2rem;
   
 }
 
@@ -297,6 +304,7 @@ padding: 5rem;
   margin: auto;
   width: 100%;
 }
+
 #formcontainr{
 width: 100%;
 background-color:#E07A5F;
@@ -339,7 +347,7 @@ background-color:#E07A5F;
 #donate p {
   padding-top: 30px;
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
   padding-bottom: 19px;
 
 }
@@ -351,8 +359,7 @@ background-color:#E07A5F;
   color: #ffffff;
   border: none;
   border-radius: 3px;
-  margin: 1rem;
-  padding: 10px;
+  
   font-size: 1rem;
   
 }
@@ -485,5 +492,12 @@ footer {
     max-width: 50%;
   }
   #info {
-    font-size: 16px;
+    padding: 2rem;
+
 }
+#donate p{
+  width: 50%;
+}
+
+
+
