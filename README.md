@@ -64,9 +64,12 @@ Wireframes
 - Images were selected to match the website's theme, with a transparent black overlay added to ensure the legibility of the text.
 - The hero image was selected to provide a vibrant and colourful introduction to my website, while still maintaining the website's theme.
 
-
-
-
+# Effects
+ - When you hover over the links in the navigation bar, they appear in greyish to indicate that they are being highlighted.
+ - A smooth scroll is activated upon clicking links, bringing you to the corresponding section of the website.
+ - On mobile devices, there is a burger icon that, when clicked, reveals a navigation bar for selecting buttons.
+ - When an image is hovered over, it will change size with a transition effect.
+ - When you hover your cursor over buttons, they will have an effect where their color changes.
   
 
 
