@@ -146,6 +146,8 @@ The following languages were used: HTML5 and CSS3.
 - Font awesome was used for the social media icons.
 
 # Testing:
+
+# Device Tesing
 At the beginning of the project, a mobile-first design was implemented and adjustments were made to ensure it looked good on all screen sizes. The following devices were tested:
 - iPhone SE
 - iPhone X
@@ -153,15 +155,61 @@ At the beginning of the project, a mobile-first design was implemented and adjus
 - 24" computer screen (1920 by 1080)
 - Laptop 13" (2560 by 1600)
 
-# Implementation:
+# HTML-W3C-Validator 
 
-During development, the developer tools in Google Chrome were used primarily for testing devices. The selector tool was used to select certain elements on the page, and this was done on each device by selecting the said device on developer tools. Design changes were implemented from the developer tools to see what the design or design change would look like. This greatly helped in the speed the ideas could be implemented. The website was tested on each device by opening the index.html in live server, a plugin on Visual Studio Code. From there, developer tools were opened, and elements were first checked to make sure they were working as expected. Then, the code on developer tools was checked if the element worked as expected. If the element worked as expected, the next element was tested. The dimensions:responsive were also used to check the responsiveness of the website.
+# CSS-Validator  
+
+# Lighthouse testing
+
+# Browser Testing
+
+# Fixed Bugs
+
+# Implementation:
+During development, the developer tools in Google Chrome were used primarily for testing devices. The selector tool was used to select certain elements on the page, and this was done on each device by selecting the said device on developer tools. Design changes were implemented from the developer tools to see what the design or design change would look like. This greatly helped in the speed the ideas could be implemented. The website was tested on each device by opening the index.html in the live server, a plugin on Visual Studio Code. From there, developer tools were opened, and elements were first checked to make sure they were working as expected. Then, the code on developer tools was checked if the element worked as expected. If the element worked as expected, the next element was tested. The dimensions: responsive were also used to check the responsiveness of the website.
+
+ 
+
+# Deployment
+To deploy this website, I utilized Visual Studio Code and Git. I deployed the website to GitHub and then hosted it on GitHub Pages. This allows for easy accessibility, as the website can be viewed without the need to fork the repository. A step-by-step can be found below on how to deploy to GitHub page
+
+Step 1: Go to Repository Settings
+In your GitHub repository, go to the "Settings" tab.
+
+Step 2: Scroll Down to GitHub Pages Section
+Scroll down to the "GitHub Pages" section in the settings.
+
+Step 3: Choose Your Branch
+Under the "Source" section, select the branch you want to use for GitHub Pages. Typically, you might use the main or master branch.
+
+Step 4: Save
+Click on the "Save" button. GitHub Pages will generate a URL for your site.
+
+# Credits
+
+# Contents
+The content about Endometriosis and Endometriosis Ireland was sourced from Wikipedia and Endometriosis Ireland website Endometriosis.ie. I have linked these below.
+
+- Wikipeida
+- Endometriosis Ireland
+
+# Media
+
+I found photos used on this website by using different terms on Google Image search and changing the site to find suitable images. The 
+
+
+
+
+
+
+
+
 
 
 
     
  
-  
+   
     
   
     
