@@ -75,14 +75,14 @@ Wireframes
 - I redesigned the website as a single page with a navigation bar linking to each section
 - The design has been kept as minimalistic as possible to ensure easy navigation. Any unnecessary clutter has been removed to make it easier for users to find their way around.
 
-  # Fetures ***
-  # Navigation Bar
+# Fetures ***
+# Navigation Bar
   - The logo on the top right is easy to locate and will link back to the hero image.
   - Each section of the website will have a link on the navigation bar that leads directly to it.
   - On smaller screens, a 'Burger' toggle reveals a navigation menu.
   - When you hover over the navigation menu, the links will change colour to indicate which one you are about to select.
  
-  # Hero Image
+# Hero Image
 - The hero image appears right below the navigation bar on the index.html page. It is a colourful image meant to give a warm welcome to the website.
 - A black transparent overlay is used to enhance the contrast between the message displayed and the image itself.
 - The 404 error page will not display the hero image.
@@ -121,7 +121,44 @@ Wireframes
 - The footer has a minimal design and links to the social media accounts of Endometriosis Ireland.
 - The social media links are black icons with a hover effect to indicate that they are clickable.
 - The icons stack on smaller screens and grow into a row on bigger screens.
- 
+
+# 404 Page
+
+
+ # Future features
+ - A map to show the drop-in location of Endometriosis Ireland
+ - An integrated forum for users to join
+ - A page to give detailed answers to questions
+
+  # Future Features:
+- A map to show the drop-in location of Endometriosis Ireland
+- An integrated forum for users to join
+- A page to give detailed answers to questions
+
+# Technologies Used:
+The following languages were used: HTML5 and CSS3.
+
+# Libraries and Programs:
+- Visual Studio Code was used as the code editor.
+- GitHub desktop was used to view repository changes.
+- GitHub was used to upload the repository.
+- Google fonts were used for the fonts.
+- Font awesome was used for the social media icons.
+
+# Testing:
+At the beginning of the project, a mobile-first design was implemented and adjustments were made to ensure it looked good on all screen sizes. The following devices were tested:
+- iPhone SE
+- iPhone X
+- iPhone 14
+- 24" computer screen (1920 by 1080)
+- Laptop 13" (2560 by 1600)
+
+# Implementation:
+
+During development, the developer tools in Google Chrome were used primarily for testing devices. The selector tool was used to select certain elements on the page, and this was done on each device by selecting the said device on developer tools. Design changes were implemented from the developer tools to see what the design or design change would look like. This greatly helped in the speed the ideas could be implemented. The website was tested on each device by opening the index.html in live server, a plugin on Visual Studio Code. From there, developer tools were opened, and elements were first checked to make sure they were working as expected. Then, the code on developer tools was checked if the element worked as expected. If the element worked as expected, the next element was tested. The dimensions:responsive were also used to check the responsiveness of the website.
+
+
+
     
  
   
