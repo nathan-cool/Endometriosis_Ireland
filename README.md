@@ -69,7 +69,24 @@ Wireframes
  - A smooth scroll is activated upon clicking links, bringing you to the corresponding section of the website.
  - On mobile devices, there is a burger icon that, when clicked, reveals a navigation bar for selecting buttons.
  - When an image is hovered over, it will change size with a transition effect.
- - When you hover your cursor over buttons, they will have an effect where their color changes.
-  
+ - When you hover your cursor over buttons, they will have an effect where their colour changes.
 
+# Design choices
+- The website is consistent across all screen sizes as much as possible.
+- I created clickable images that change their behavior when hovered over.
+- I redesigned the website as a single page with a navigation bar linking to each section
+- The design has been kept as minimalistic as possible to ensure easy navigation. Any unnecessary clutter has been removed to make it easier for users to find their way around.
 
+  # Fetures ***
+  # Navigation Bar
+  - The logo on the top right is easy to locate and will link back to the hero image.
+  - Each section of the website will have a link on the navigation bar that leads directly to it.
+  - On smaller screens, a 'Burger' toggle reveals a navigation menu.
+  - When you hover over the navigation menu, the links will change color to indicate which one you are about to select.
+ 
+  # Hero image
+  - Under the navigation bar the hero image will appear this is a colorful image to give a warm greeting to the website 
+  - The hero image has a black transperant overlay to help with the contrast bewttwen the message that is displayed and the image itself
+  - This hero image only appears on the index.html. The 404 error page will not display this image.
+ 
+  # Information Section
