@@ -188,19 +188,13 @@ At the beginning of the project, a mobile-first design was implemented and adjus
 ## Browser Testing
 
 ## Fixed Bugs
-During the development process, I encountered a few issues with the flexbox not working correctly. However, this experience helped me gain a better understanding of Flexbox as I had to read more documentation to troubleshoot and fix the issue.
+During the development process, I faced several issues with the flexbox not functioning correctly. This experience helped me gain a better understanding of Flexbox by reading more documentation to troubleshoot and fix the issue.
 
-Another problem I faced was the overflow of my Imergery section, which resulted in white space appearing on the right-hand side of the screen on mobile devices. Initially, I tried to fix this by setting the HTML CSS attribute to overflow:hidden, but this caused the 'burger' button to stop working. Eventually, I reverted back to the original overflow settings and corrected the padding of the Imergery section, which was the root cause of the issue.
+One of the problems I encountered was the overflow of my "Imergery" section, which caused white space to appear on the right side of the screen on mobile devices. Initially, I tried to fix this by setting the HTML CSS attribute to "overflow:hidden", but this affected the 'burger' button, causing it to stop working. I reverted back to the original overflow settings and corrected the padding of the "Imergery" section, which was the root cause of the issue.
 
-Moreover, I struggled with the sizing of my images, as they were not appearing correctly on both mobile and desktop devices. I was finally able to resolve this issue by adding both width and height attributes to each image.
+Furthermore, I faced an issue with the sizing of my images that were not appearing correctly on both mobile and desktop devices. I managed to fix this issue by adding both width and height attributes to each image.
 
-Lastly, I had initially planned to use the font colour #F4F1DE throughout my website. However, I later decided against it as I thought that #FFFFFF would contrast better with the background. During development, I had some issues with the flex box not working correctly. However, this helped me better understand flex box as I had to read more documentation to get a better understanding of how it worked. 
-
-Another issue I had was the overflow of my Imagery section. This would throw white space on the right-hand side of the mobile. I thought I had fixed this by setting the html css attribute to overflow:hidden. While it appeared to work this would stop the 'burger' button from working. I reverted back to the original overflow settings and fixed the imagery section padding which was causing the issue. 
-
-I also had issues with the sizing of my images to appear correctly on mobile and desktop. I finally got this fixed by adding both a width and height to each image. 
-
-I originally wanted to use the font colour #F4F1DE throughout my website. However, I decided against this as I thought #FFFFFF would contrast better with the background. 
+Lastly, I had initially planned to use the font colour #F4F1DE throughout my website but later decided against it as I thought that #FFFFFF would provide better contrast with the background.
 
 ## Implementation:
 During development, the developer tools in Google Chrome were used primarily for testing devices. The selector tool was used to select certain elements on the page, and this was done on each device by selecting the said device on developer tools. Design changes were implemented from the developer tools to see what the design or design change would look like. This greatly helped in the speed the ideas could be implemented. The website was tested on each device by opening the index.html in the live server, a plugin on Visual Studio Code. From there, developer tools were opened, and elements were first checked to make sure they were working as expected. Then, the code on developer tools was checked if the element worked as expected. If the element worked as expected, the next element was tested. The dimensions: responsive were also used to check the responsiveness of the website.
