@@ -72,9 +72,8 @@ An existing user of the website wants to be able to:
 - View up-to-date social media links
 - Quickly find and contact the charity for any inquiries or additional information.
 
-## Design
-
-Wireframes
+# Design
+## Wireframes
 <table>
     <tr>
       <th>Device</th>
@@ -89,7 +88,6 @@ Wireframes
         <td>Desktop</td>
     </tr>
   </table>
-
 
 ## Colour Scheme
 - The website's colour scheme is colourful yet minimlist.
@@ -106,7 +104,6 @@ Wireframes
 
 ## Effects
  - When you hover over the links in the navigation bar, they appear in greyish to indicate that they are being highlighted.
-   
  - A smooth scroll is activated upon clicking links, bringing you to the corresponding section of the website.
  - On mobile devices, there is a burger icon that, when clicked, reveals a navigation bar for selecting buttons.
  - When an image is hovered over, it will change size with a transition effect.
@@ -118,7 +115,7 @@ Wireframes
 - I redesigned the website as a single page with a navigation bar linking to each section
 - The design has been kept as minimalistic as possible to ensure easy navigation. Any unnecessary clutter has been removed to make it easier for users to find their way around.
 
-# Fetures ***
+# Fetures
 ## Navigation Bar
   - The logo on the top right is easy to locate and will link back to the hero image.
   - Each section of the website will have a link on the navigation bar that leads directly to it.
@@ -172,7 +169,8 @@ Wireframes
 - An integrated forum for users to join
 - A page to give detailed answers to questions
 
-# Technologies Used:
+# Technologies Used
+## Languages
 The following languages were used: HTML5 and CSS3.
 
 ## Libraries and Programs:
@@ -183,7 +181,6 @@ The following languages were used: HTML5 and CSS3.
 - Font awesome was used for the social media icons.
 
 # Testing:
-
 ## Device Tesing
 At the beginning of the project, a mobile-first design was implemented and adjustments were made to ensure it looked good on all screen sizes. The following devices were tested:
 - iPhone SE
@@ -227,12 +224,31 @@ Click on the "Save" button. GitHub Pages will generate a URL for your site.
 # Contents
 The content about Endometriosis and Endometriosis Ireland was sourced from Wikipedia and Endometriosis Ireland website Endometriosis.ie. I have linked these below.
 
-- Wikipeida
-- Endometriosis Ireland
+- <a href="(https://en.wikipedia.org/wiki/Endometriosis)" target="_blank">Wikipeida</a>
+- <a href="(https://www.endometriosis.ie/)" target="_blank">Endometriosis Ireland</a>
+
+Fontawesome was used for the favicions throughout the page.
+
+https://fontawesome.com/
+
+Readme template taken from
+
+https://github.com/Code-Institute-Solutions/readme-template
+
+Tutorial and documentation used
+
+https://www.w3schools.com/html/
+https://developer.mozilla.org/en-US/docs/
+https://css-tricks.com/
+
+Inspiration from some of the features came from the below deployed templates created by this user.
+
+https://github.com/nemixu/Milestone1
 
 ## Media
 
-I found photos used on this website by using different terms on Google Image search and changing the site to find suitable images. The 
+I found photos used on this website by using different terms on Google Image search and changing usage rights to Creative Commons licenses
+
 
 
 
