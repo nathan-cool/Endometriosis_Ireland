@@ -222,12 +222,12 @@ Click on the "Save" button. GitHub Pages will generate a URL for your site.
 # Credits
 
 # Contents
-The content about Endometriosis and Endometriosis Ireland was sourced from Wikipedia and Endometriosis Ireland website Endometriosis.ie. I have linked these below.
+The content about Endometriosis and Endometriosis Ireland was sourced from Wikipedia and the website Endometriosis.ie of Endometriosis Ireland. I have provided the links below.
 
 - <a href="(https://en.wikipedia.org/wiki/Endometriosis)" target="_blank">Wikipeida</a>
 - <a href="(https://www.endometriosis.ie/)" target="_blank">Endometriosis Ireland</a>
 
-Fontawesome was used for the favicions throughout the page.
+Throughout the page, Fontawesome was utilized for the favicons.
 
 https://fontawesome.com/
 
@@ -235,13 +235,13 @@ Readme template taken from
 
 https://github.com/Code-Institute-Solutions/readme-template
 
-Tutorial and documentation used
+Tutorial and documentation used:
 
 https://www.w3schools.com/html/
 https://developer.mozilla.org/en-US/docs/
 https://css-tricks.com/
 
-Inspiration from some of the features came from the below deployed templates created by this user.
+Inspiration for some features came from templates created by this user:
 
 https://github.com/nemixu/Milestone1
 
