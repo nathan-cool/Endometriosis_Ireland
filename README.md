@@ -235,7 +235,7 @@ Readme template taken from
 
 https://github.com/Code-Institute-Solutions/readme-template
 
-### Tutorial and documentation used:
+Tutorial and documentation used:
 
 - https://www.w3schools.com/html/
 - https://developer.mozilla.org/en-US/docs/
@@ -245,11 +245,11 @@ Throughout the page, Fontawesome was utilized for the favicons.
 
 - https://fontawesome.com/
   
-### Inspiration for some features came from templates created by this user:
+Inspiration for some features came from templates created by this user:
 
-https://github.com/nemixu/Milestone1
+- https://github.com/nemixu/Milestone1
 
-## Media
+Media
 
 I found photos used on this website by using different terms on Google Image search and changing usage rights to Creative Commons licenses
 
