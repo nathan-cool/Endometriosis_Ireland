@@ -169,6 +169,9 @@ The following languages were used: HTML5 and CSS3.
 - GitHub was used to upload the repository.
 - Google fonts were used for the fonts.
 - Font awesome was used for the social media icons.
+- Google Chrome 
+- Safari (For testing)
+- Edge (For testing) 
 
 # Testing:
 ## Device Testing
