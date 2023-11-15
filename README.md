@@ -2,6 +2,49 @@
 
 My website's main objective is to raise awareness about Endometriosis, a condition that affects approximately 6 million women. I provide basic information about the symptoms, diagnoses, and recent research on Endometriosis. Additionally, I aim to create a sense of community by sharing links to forums where people can share their experiences and support one another.
 
+The site is live, the link is <a href="https://nathan-cool.github.io/Endometriosis_Ireland/" target="_blank">HERE</a>
+
+![Site mockups](assets/images/Sitemockup.jpg)
+
+## Contents
+- [User Story](#user-story)
+  - [Overview](#overview)
+  - [User Stories](#user-stories)
+  - [New User Stories](#new-user-stories)
+  - [Existing User Stories](#existing-user-stories)
+- [Design](#Design)
+  - [Wireframes](#wireframes)
+  - [Color Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Effects](#effects)
+  - [Design Choices](#design-choices)
+- [Features](#Features)
+  - [Navigation Bar](#navigation-bar)
+  - [Hero Image](#hero-image)
+  - [About Section](#about-section)
+  - [Images Section](#images-section)
+  - [Information Section](#information-section)
+  - [Donate Section](#donate-section)
+  - [Contact Us Section](#contact-us-section)
+  - [Footer](#footer)
+  - [404 Page](#404-page)
+  - [Future Features](#future-features)
+- [Technologies Used](#Technologies-Used)
+  - [Languages](#languages)
+  - [Libraries and Programs](#libraries-and-programs)
+- [Testing](#testing)
+  - [Device Testing](#device-testing)
+  - [HTML-W3C-Validator](#html-w3c-validator)
+  - [CSS-Validator](#css-validator)
+  - [Lighthouse Testing](#lighthouse-testing)
+  - [Browser Testing](#browser-testing)
+  - [Fixed Bugs](#fixed-bugs)
+  - [Implementation](#implementation)
+- [Deplyment](#Deployment)
+  - [GitHub Pages](#github-pages)
+  - [Credits](#credits)
+
 ## User Story
 
 My website's primary objective is to raise awareness about Endometriosis by providing people with relevant information. The intended audience for the website is females aged between 14-55, as this group is usually the most affected by this condition.
@@ -29,33 +72,20 @@ An existing user of the website wants to be able to:
 - View up-to-date social media links
 - Quickly find and contact the charity for any inquiries or additional information.
 
-## Design
+# Design
+## Wireframes
+### Devices
+Mobile 
+Tablet
+Desktop
 
-Wireframes
-
-<table>
-    <tr>
-      <th>Device</th>
-    </tr>
-    <tr>
-      <td>Mobile</td>
-    </tr>
-    <tr>
-      <td>Tablet</td>
-    </tr>
-    <tr>
-        <td>Desktop</td>
-    </tr>
-  </table>
-
-
-## Color Scheme
-- The website's colour scheme is colourful yet elegant.
+## Colour Scheme
+- The website's colour scheme is colourful yet minimalist.
 - The colours of each section are in contrast to one another.
 
 ## Typography
 - For this website, Open Sans Light was chosen for headings to complement the minimalist and elegant design.
-- The regular font weight of Open Sans was chosen for everything else. 
+- The regular font-weight of Open Sans was chosen for everything else. 
 
 ## Imagery
 - Imagery for this website was taken from various stock photos website which are referenced in the credits section.
@@ -75,7 +105,7 @@ Wireframes
 - I redesigned the website as a single page with a navigation bar linking to each section
 - The design has been kept as minimalistic as possible to ensure easy navigation. Any unnecessary clutter has been removed to make it easier for users to find their way around.
 
-# Fetures ***
+# Fetures
 ## Navigation Bar
   - The logo on the top right is easy to locate and will link back to the hero image.
   - Each section of the website will have a link on the navigation bar that leads directly to it.
@@ -129,7 +159,8 @@ Wireframes
 - An integrated forum for users to join
 - A page to give detailed answers to questions
 
-# Technologies Used:
+# Technologies Used
+## Languages
 The following languages were used: HTML5 and CSS3.
 
 ## Libraries and Programs:
@@ -138,10 +169,12 @@ The following languages were used: HTML5 and CSS3.
 - GitHub was used to upload the repository.
 - Google fonts were used for the fonts.
 - Font awesome was used for the social media icons.
+- Google Chrome 
+- Safari (For testing)
+- Edge (For testing) 
 
 # Testing:
-
-## Device Tesing
+## Device Testing
 At the beginning of the project, a mobile-first design was implemented and adjustments were made to ensure it looked good on all screen sizes. The following devices were tested:
 - iPhone SE
 - iPhone X
@@ -158,38 +191,62 @@ At the beginning of the project, a mobile-first design was implemented and adjus
 ## Browser Testing
 
 ## Fixed Bugs
+During the development process, I faced several issues with the flexbox not functioning correctly. This experience helped me gain a better understanding of Flexbox by reading more documentation to troubleshoot and fix the issue.
+
+One of the problems I encountered was the overflow of my "Imergery" section, which caused white space to appear on the right side of the screen on mobile devices. Initially, I tried to fix this by setting the HTML CSS attribute to "overflow:hidden", but this affected the 'burger' button, causing it to stop working. I reverted back to the original overflow settings and corrected the padding of the "Imergery" section, which was the root cause of the issue.
+
+Furthermore, I faced an issue with the sizing of my images that were not appearing correctly on both mobile and desktop devices. I managed to fix this issue by adding both width and height attributes to each image.
+
+Lastly, I had initially planned to use the font colour #F4F1DE throughout my website but later decided against it as I thought that #FFFFFF would provide better contrast with the background.
 
 ## Implementation:
 During development, the developer tools in Google Chrome were used primarily for testing devices. The selector tool was used to select certain elements on the page, and this was done on each device by selecting the said device on developer tools. Design changes were implemented from the developer tools to see what the design or design change would look like. This greatly helped in the speed the ideas could be implemented. The website was tested on each device by opening the index.html in the live server, a plugin on Visual Studio Code. From there, developer tools were opened, and elements were first checked to make sure they were working as expected. Then, the code on developer tools was checked if the element worked as expected. If the element worked as expected, the next element was tested. The dimensions: responsive were also used to check the responsiveness of the website.
 
- 
-
 # Deployment
 To deploy this website, I utilized Visual Studio Code and Git. I deployed the website to GitHub and then hosted it on GitHub Pages. This allows for easy accessibility, as the website can be viewed without the need to fork the repository. A step-by-step can be found below on how to deploy to GitHub page
 
-Step 1: Go to Repository Settings
-In your GitHub repository, go to the "Settings" tab.
+Step 1: In your GitHub repository, go to the "Settings" tab.
 
-Step 2: Scroll Down to GitHub Pages Section
-Scroll down to the "GitHub Pages" section in the settings.
+Step 2: Scroll down to the "GitHub Pages" section in the settings.
 
-Step 3: Choose Your Branch
-Under the "Source" section, select the branch you want to use for GitHub Pages. Typically, you might use the main or master branch.
+Step 3: Under the "Source" section, select the branch you want to use for GitHub Pages.
 
-Step 4: Save
-Click on the "Save" button. GitHub Pages will generate a URL for your site.
+Step 4: Click on the "Save" button. 
 
 # Credits
 
 # Contents
-The content about Endometriosis and Endometriosis Ireland was sourced from Wikipedia and Endometriosis Ireland website Endometriosis.ie. I have linked these below.
+The content about Endometriosis and Endometriosis Ireland was sourced from Wikipedia and the website Endometriosis.ie of Endometriosis Ireland. I have provided the links below.
 
-- Wikipeida
-- Endometriosis Ireland
+- <a href="(https://en.wikipedia.org/wiki/Endometriosis)" target="_blank">Wikipeida</a>
+- <a href="(https://www.endometriosis.ie/)" target="_blank">Endometriosis Ireland</a>
 
-## Media
+Throughout the page, Fontawesome was utilized for the favicons.
 
-I found photos used on this website by using different terms on Google Image search and changing the site to find suitable images. The 
+- https://fontawesome.com/
+
+The readme template was taken from
+
+- https://github.com/Code-Institute-Solutions/readme-template
+
+Tutorial and documentation used:
+
+- https://www.w3schools.com/html/
+- https://developer.mozilla.org/en-US/docs/
+- https://css-tricks.com/
+
+Throughout the page, Fontawesome was utilized for the favicons.
+
+- https://fontawesome.com/
+  
+Inspiration for some features came from templates created by this user:
+
+- https://github.com/nemixu/Milestone1
+
+Media
+
+Images used during the development of this site were taken from  https://unsplash.com/ and https://www.pexels.com/ 
+
 
 
 
