@@ -2,6 +2,49 @@
 
 My website's main objective is to raise awareness about Endometriosis, a condition that affects approximately 6 million women. I provide basic information about the symptoms, diagnoses, and recent research on Endometriosis. Additionally, I aim to create a sense of community by sharing links to forums where people can share their experiences and support one another.
 
+The site is live, the link is <a href="https://nathan-cool.github.io/Endometriosis_Ireland/" target="_blank">HERE</a>
+
+![Site mockups](assets/images/Sitemockup.jpg)
+
+## Conents
+- [User Story](#user-story)
+  - [Overview](#overview)
+  - [User Stories](#user-stories)
+  - [New User Stories](#new-user-stories)
+  - [Existing User Stories](#existing-user-stories)
+- [Design](#Design)
+  - [Wireframes](#wireframes)
+  - [Color Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Effects](#effects)
+  - [Design Choices](#design-choices)
+- [Features](#Features)
+  - [Navigation Bar](#navigation-bar)
+  - [Hero Image](#hero-image)
+  - [About Section](#about-section)
+  - [Images Section](#images-section)
+  - [Information Section](#information-section)
+  - [Donate Section](#donate-section)
+  - [Contact Us Section](#contact-us-section)
+  - [Footer](#footer)
+  - [404 Page](#404-page)
+  - [Future Features](#future-features)
+- [Technologies Used](#Technologies-Used)
+  - [Languages](#languages)
+  - [Libraries and Programs](#libraries-and-programs)
+- [Testing](#testing)
+  - [Device Testing](#device-testing)
+  - [HTML-W3C-Validator](#html-w3c-validator)
+  - [CSS-Validator](#css-validator)
+  - [Lighthouse Testing](#lighthouse-testing)
+  - [Browser Testing](#browser-testing)
+  - [Fixed Bugs](#fixed-bugs)
+  - [Implementation](#implementation)
+- [Deplyment](#Deployment)
+  - [GitHub Pages](#github-pages)
+  - [Credits](#credits)
+
 ## User Story
 
 My website's primary objective is to raise awareness about Endometriosis by providing people with relevant information. The intended audience for the website is females aged between 14-55, as this group is usually the most affected by this condition.
@@ -32,7 +75,6 @@ An existing user of the website wants to be able to:
 ## Design
 
 Wireframes
-
 <table>
     <tr>
       <th>Device</th>
@@ -49,8 +91,8 @@ Wireframes
   </table>
 
 
-## Color Scheme
-- The website's colour scheme is colourful yet elegant.
+## Colour Scheme
+- The website's colour scheme is colourful yet minimlist.
 - The colours of each section are in contrast to one another.
 
 ## Typography
@@ -64,6 +106,7 @@ Wireframes
 
 ## Effects
  - When you hover over the links in the navigation bar, they appear in greyish to indicate that they are being highlighted.
+   
  - A smooth scroll is activated upon clicking links, bringing you to the corresponding section of the website.
  - On mobile devices, there is a burger icon that, when clicked, reveals a navigation bar for selecting buttons.
  - When an image is hovered over, it will change size with a transition effect.
