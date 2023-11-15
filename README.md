@@ -229,11 +229,11 @@ The content about Endometriosis and Endometriosis Ireland was sourced from Wikip
 
 Throughout the page, Fontawesome was utilized for the favicons.
 
-https://fontawesome.com/
+- https://fontawesome.com/
 
-Readme template taken from
+Readme template was taken from
 
-https://github.com/Code-Institute-Solutions/readme-template
+- https://github.com/Code-Institute-Solutions/readme-template
 
 Tutorial and documentation used:
 
@@ -251,7 +251,7 @@ Inspiration for some features came from templates created by this user:
 
 Media
 
-I found photos used on this website by using different terms on Google Image search and changing usage rights to Creative Commons licenses
+Images used during the development of this site were taken from  https://unsplash.com/ and https://www.pexels.com/ 
 
 
 
