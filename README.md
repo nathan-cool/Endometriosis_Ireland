@@ -235,13 +235,17 @@ Readme template taken from
 
 https://github.com/Code-Institute-Solutions/readme-template
 
-Tutorial and documentation used:
+### Tutorial and documentation used:
 
-https://www.w3schools.com/html/
-https://developer.mozilla.org/en-US/docs/
-https://css-tricks.com/
+- https://www.w3schools.com/html/
+- https://developer.mozilla.org/en-US/docs/
+- https://css-tricks.com/
 
-Inspiration for some features came from templates created by this user:
+Throughout the page, Fontawesome was utilized for the favicons.
+
+- https://fontawesome.com/
+  
+### Inspiration for some features came from templates created by this user:
 
 https://github.com/nemixu/Milestone1
 
