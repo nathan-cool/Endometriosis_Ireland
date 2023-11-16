@@ -1,5 +1,3 @@
-/*Imports google fonts Open Sans*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
 
 /*reset all styles*/
 * {
@@ -137,7 +135,7 @@ border-bottom: #2e4052 1px solid;
 width: 100%;
 height: 700px;
 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-url("../images/people-2567915.jpg") no-repeat center center/cover;
+url("../images/people-2567915.webp") no-repeat center center/cover;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -249,17 +247,17 @@ width: 90%;
 /*Responsive images images*/
 #image1 {
 background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-url("../images/pexels-anna-tarazevich-5483021.jpg") no-repeat center
+url("../images/pexels-anna-tarazevich-5483021.webp") no-repeat center
 center/cover;
 }
 #image2 {
 background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-url("../images/Women-on-laptop.jpg") no-repeat center center/cover;
+url("../images/Women-on-laptop.webp") no-repeat center center/cover;
 }
 
 #image3 {
 background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-url("../images/Donation Phone.jpg") no-repeat center center/cover;
+url("../images/Donation Phone.webp") no-repeat center center/cover;
 }
 
 /*Info section*/
