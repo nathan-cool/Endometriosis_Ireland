@@ -4,41 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
+    <title>Endometriosis Ireland</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!--Open San, Nunito family -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans:wght@300;400;700&display=swap"
-        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
 </head>
 
 <body>
     <header>
         <!-- Navbar -->
 
-        <a href="index.html">
-            <h1 id="logo">Endometriosis</h1>
-        </a>
+        
+            <h1 id="logo"><a href="index.html">Endometriosis</a></h1>
+    
 
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-sharp fa-solid fa-bars"></i></label>
         <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <nav id="navbar" role="navigation" aria-label="Main Navigation" roll="Nav bar">
+        <nav id="navbar" role="navigation" aria-label="Main Navigation" role="navigation">
             <ul id="navlinks">
                 <li><a class="link" href="#hero">Home </a></li>
                 <li><a class="link" href="#about">About </a></li>
                 <li><a class="link" href="#info">Info</a></li>
                 <li><a class="link" href="#donate">Donate</a></li>
                 <li><a class="link" href="#contactus">Contact</a></li>
-                
+
             </ul>
         </nav>
-    </header
-    <!-- HeroImage -->
+    </header> 
+    
+    <!-- Hero -->
 
     <main>
-        <section id="hero" roll="Banner">
+        <section id="hero" role="Banner">
             <div id="herotext">
                 <h2>Endometriosis Ireland</h2>
                 <h3>Hope, Support, and Empowerment for Women's Health</h3>
@@ -46,7 +49,7 @@
         </Section>
         <!-- About Section -->
 
-        <section id="about" roll="About us text">
+        <section id="about" role="About us text">
             <div id="abouttext">
                 <h2>about endometriosis ireland </h2>
                 <p>Endometriosis Ireland is a non-profit organisation that aims to help women and girls in Ireland to
@@ -57,31 +60,31 @@
 
         <!-- How to help section, with three images -->
 
-        <section id="responsiveimages" roll="Clickable images">
+        <section id="responsiveimages" role="Clickable images">
             <div id="imagescontainer">
-                
-                    <div id="image1" class="images" alt="Women laughing" role="img" aria-label="Three women laughing">
-                        <h3>Discover the Fulfillment of Making a Difference: Get Involved Today</h3>
-                        
-                        <a href="hhttps://www.endometriosis.ie/get-involved/" target="_blank">
-                        <button class="imagebuttons"> Get Involved Today</button>
-                        </a>
-                    </div>
-                
 
-    
-                    <div id="image2" class="images" alt="Women on laptop" role="img" aria-label="Woman at PC smiling">
-                        <h3>Unleash the Power of Unity: Join Our Community for Shared Goals and Values</h3>
-                        <a href="https://www.endometriosis.ie/forum/" target="_blank">
+                <div id="image1" class="images" alt="Women laughing" role="img" aria-label="Three women laughing">
+                    <h3>Discover the Fulfillment of Making a Difference: Get Involved Today</h3>
+
+                    <a href="hhttps://www.endometriosis.ie/get-involved/" target="_blank">
+                        <button class="imagebuttons"> Get Involved Today</button>
+                    </a>
+                </div>
+
+
+
+                <div id="image2" class="images" alt="Women on laptop" role="img" aria-label="Woman at PC smiling">
+                    <h3>Unleash the Power of Unity: Join Our Community for Shared Goals and Values</h3>
+                    <a href="https://www.endometriosis.ie/forum/" target="_blank">
                         <button class="imagebuttons"> Join Our Community</button></a>
-                    </div>
-                
-                
-                    <div id="image3" class="images" alt="Women laughing" role="img" aria-label="Three women laughing">
-                        <h3>Empower positive change - donate now to make a difference that echoes beyond today.</h3>
-                        <a href="https://www.endometriosis.ie/donate/" target="_blank">
+                </div>
+
+
+                <div id="image3" class="images" alt="Women laughing" role="img" aria-label="Three women laughing">
+                    <h3>Empower positive change - donate now to make a difference that echoes beyond today.</h3>
+                    <a href="https://www.endometriosis.ie/donate/" target="_blank">
                         <button class="imagebuttons"> Donate Today</button></a>
-                    </div>
+                </div>
                 </a>
 
 
@@ -135,13 +138,13 @@
                     empowers individuals and fosters hope for continued progress in managing this complex condition.</p>
             </div>
         </section>
-        <section id="donate" roll="Donate today">
+        <section id="donate" role="Donate>
             <div id="Donatetext">
                 <h2>Donate Today</h2>
                 <p>Donate today to support those battling endometriosis! Your contribution aids in vital research,
                     education, and assistance for affected individuals. Every donation, regardless of size, propels us
                     towards a future where understanding and support for endometriosis flourish.</p>
-                <a href="googlde.com"><button id="donotebutton">Donate Today</button></a>
+                <a href="https://www.endometriosis.ie/donate/"><button id="donotebutton">Donate Today</button></a>
             </div>
         </section>
         <!-- Contact us -->
@@ -153,10 +156,10 @@
                         class="form" required>
                     <input type="text" id="email" name="email" title="Email address" placeholder="Your Email* "
                         class="form" required><br>
-                    <textarea id="message" name="message" title="Your Message" placeholder="Your Message "
-                        class="form" required></textarea><br>
+                    <textarea id="message" name="message" title="Your Message" placeholder="Your Message* " class="form"
+                        required></textarea><br>
                     <div id="lastbreak">
-                        <input type="submit" value="Send" title="Submit Button" class="imagebuttons" id="button">
+                        <input type="submit" value="Send" title="Submit Button" class="imagebuttons">
                     </div>
 
                 </form>
@@ -183,8 +186,9 @@
         </ul>
     </footer>
 
-    <script src="https://kit.fontawesome.com/0ad5ba8600.js" crossorigin="anonymous"></script>
+
 </body>
+<script src="https://kit.fontawesome.com/0ad5ba8600.js" crossorigin="anonymous"></script>
 
 </html>
 
