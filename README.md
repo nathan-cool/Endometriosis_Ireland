@@ -74,14 +74,14 @@ An existing user of the website wants to be able to:
 
 # Design
 ## Wireframes
-### Devices
-Mobile 
-Tablet
-Desktop
+A link to the wireframes can be found <a href="https://github.com/nathan-cool/Endometriosis_Ireland/blob/main/assets/Wireframes/Screenshot%202023-11-17%20at%2011.03.08.png" target="_blank">here</a>
 
 ## Colour Scheme
 - The website's colour scheme is colourful yet minimalist.
 - The colours of each section are in contrast to one another.
+  #F3F1DE
+  #DF7A5E
+  
 
 ## Typography
 - For this website, Open Sans Light was chosen for headings to complement the minimalist and elegant design.
