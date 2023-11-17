@@ -209,17 +209,69 @@ The following languages were used: HTML5 and CSS3.
 ## Device Testing
 At the beginning of the project, a mobile-first design was implemented and adjustments were made to ensure it looked good on all screen sizes. The following devices were tested:
 
-<nav id="navbar" aria-label="Main Navigation">
-    <ul id="navlinks">
-        <li><a class="link" href="#hero">Home</a></li>
-        <li><a class="link" href="#about">About</a></li>
-        <li><a class="link" href="#info">Info</a></li>
-        <li><a class="link" href="#donate">Donate</a></li>
-        <li><a class="link" href="#contactus">Contact</a></li>
-        <!-- Add the link to the 404 page -->
-        <li><a class="link" href="404.html">404</a></li>
-    </ul>
-</nav>
+<table>
+  <thead>
+    <tr>
+      <th>Device</th>
+      <th>Test One</th>
+      <th>Test Two</th>
+      <th>Result One</th>
+      <th>Result Two</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>iPhone SE</td>
+      <td>Responsiveness</td>
+      <td>Buttons/Features</td>
+      <td>Pass</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>iPhone X</td>
+      <td>Responsiveness</td>
+      <td>Buttons/Features</td>
+      <td>Pass</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>iPhone 14</td>
+      <td>Responsiveness</td>
+      <td>Buttons/Features</td>
+      <td>Pass</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>iPhone 6</td>
+      <td>Responsiveness</td>
+      <td>Buttons/Features</td>
+      <td>Pass</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>Galaxy Fold</td>
+      <td>Responsiveness</td>
+      <td>Buttons/Features</td>
+      <td>Pass</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>24-inch Monitor</td>
+      <td>Responsiveness</td>
+      <td>Buttons/Features</td>
+      <td>Pass</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>13-inch Laptop</td>
+      <td>Responsiveness</td>
+      <td>Buttons/Features</td>
+      <td>Pass</td>
+      <td>Pass</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ## HTML-W3C-Validator 
@@ -237,9 +289,6 @@ I have a few warnings here. However, I still think this provides better accessib
 ## Lighthouse testing
 
 ![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/8f7e3484-4443-4872-bc52-bf6f431877f6)
-
-
-## Browser Testing
 
 ## Fixed Bugs
 During the development process, I faced several issues with the flexbox not functioning correctly. This experience helped me gain a better understanding of Flexbox by reading more documentation to troubleshoot and fix the issue.
