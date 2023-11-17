@@ -111,15 +111,24 @@ Desktop
   - Each section of the website will have a link on the navigation bar that leads directly to it.
   - On smaller screens, a 'Burger' toggle reveals a navigation menu.
   - When you hover over the navigation menu, the links will change colour to indicate which one you are about to select.
+
+  ![NavBar](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/60950c10-fd7d-4587-9f90-87a39c345f02)
+
  
 ## Hero Image
 - The hero image appears right below the navigation bar on the index.html page. It is a colourful image meant to give a warm welcome to the website.
 - A black transparent overlay is used to enhance the contrast between the message displayed and the image itself.
 - The 404 error page will not display the hero image.
 
+  ![heroimage](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/5db198ca-abe4-459f-a7ba-2999a832b316)
+
+
 ## About Section
 - This section provides a brief introduction to Endometriosis Ireland, explaining who they are and what they do.
 - The text is responsive across all screen sizes.
+
+  ![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/fd44f940-f724-44e4-88ca-6e3b3692cb49)
+
 
 ## Images Section
 - Three clickable images are displayed in this section, which takes the user to official Endometriosis Ireland pages.
@@ -127,10 +136,16 @@ Desktop
 - A black transparent overlay is used to ensure a contrast between the message displayed and the image itself.
 - The images have a hover effect to indicate that they are clickable.
 
+  ![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/5468e2fc-f5e1-4028-b79d-aa19d775acdf)
+
+
 ## Information Section
 - This section comprises four subsections that provide basic information about Endometriosis.
 - The background is grey with white text to ensure a clear contrast between the background and text.
 - The section is responsive and dynamically adjusts to display all four boxes in a row.
+
+  ![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/cfd794f5-badc-4e7d-94e0-96dae1d2026e)
+
 
 ## Donate Section
 - This section prompts the user to donate to the Endometriosis Ireland page.
@@ -138,6 +153,12 @@ Desktop
 - The button links to the official Endometriosis Ireland donate page.
 - The background and text colours are chosen to ensure clear contrast.
 - The button inverts colours on hover to indicate that it is clickable.
+
+  ![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/ab9b9aa3-226f-4dc9-9349-932d7a71a340)
+  Donate button when hovered
+  
+  ![button-hover](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/c404d5ce-f3ac-4533-9bf5-6b538468f53e)
+
 
 ## Contact Us Section
 - This section provides a way for the user to contact Endometriosis Ireland for more information or to volunteer.
@@ -147,10 +168,16 @@ Desktop
 - The background colour is orange, and the text is black to ensure clear contrast.
 - The button inverts colours on hover to indicate that it is clickable.
 
+  ![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/f86d8d8c-d5b6-43a8-af6e-e8953ac5e6ca)
+
+
 ## Footer
 - The footer has a minimal design and links to the social media accounts of Endometriosis Ireland.
 - The social media links are black icons with a hover effect to indicate that they are clickable.
 - The icons stack on smaller screens and grow into a row on bigger screens.
+
+ ![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/92ff4875-3bb7-44d7-af59-51136593a6bf)
+
 
 ## 404 Page
 
