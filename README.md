@@ -181,6 +181,11 @@ A link to the wireframes can be found <a href="https://github.com/nathan-cool/En
 
 ## 404 Page
 
+This page will be presented if a a user tries to access a a page that does now exist 
+
+![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/51440669-fc24-4cb0-9334-fa1585e9e191)
+
+
   ## Future Features:
 - A map to show the drop-in location of Endometriosis Ireland
 - An integrated forum for users to join
