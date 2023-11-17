@@ -210,10 +210,21 @@ At the beginning of the project, a mobile-first design was implemented and adjus
 - Laptop 13" (2560 by 1600)
 
 ## HTML-W3C-Validator 
+I have a few warnings here. However, I still think this provides better accessibility options for the end user 
+
+![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/e1c8d737-fed9-4a7f-b142-b80d2ccd06e0)
+
 
 ## CSS-Validator  
+![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/41ecd848-8ab8-4bda-a709-e081ae5cebec)
+
+<a href="(https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnathan-cool.github.io%2FEndometriosis_Ireland%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)" target="_blank">Link to full report </a>
+
 
 ## Lighthouse testing
+
+![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/8f7e3484-4443-4872-bc52-bf6f431877f6)
+
 
 ## Browser Testing
 
