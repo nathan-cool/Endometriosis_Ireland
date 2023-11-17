@@ -208,11 +208,19 @@ The following languages were used: HTML5 and CSS3.
 # Testing:
 ## Device Testing
 At the beginning of the project, a mobile-first design was implemented and adjustments were made to ensure it looked good on all screen sizes. The following devices were tested:
-- iPhone SE
-- iPhone X
-- iPhone 14
-- 24" computer screen (1920 by 1080)
-- Laptop 13" (2560 by 1600)
+
+<nav id="navbar" aria-label="Main Navigation">
+    <ul id="navlinks">
+        <li><a class="link" href="#hero">Home</a></li>
+        <li><a class="link" href="#about">About</a></li>
+        <li><a class="link" href="#info">Info</a></li>
+        <li><a class="link" href="#donate">Donate</a></li>
+        <li><a class="link" href="#contactus">Contact</a></li>
+        <!-- Add the link to the 404 page -->
+        <li><a class="link" href="404.html">404</a></li>
+    </ul>
+</nav>
+
 
 ## HTML-W3C-Validator 
 I have a few warnings here. However, I still think this provides better accessibility options for the end user 
