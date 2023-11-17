@@ -181,7 +181,7 @@ A link to the wireframes can be found <a href="https://github.com/nathan-cool/En
 
 ## 404 Page
 
-This page will be presented if a a user tries to access a a page that does now exist 
+-This page will be presented if a user tries to access a page that does now exist 
 
 ![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/51440669-fc24-4cb0-9334-fa1585e9e191)
 
@@ -197,10 +197,10 @@ The following languages were used: HTML5 and CSS3.
 
 ## Libraries and Programs:
 - Visual Studio Code was used as the code editor.
-- GitHub desktop was used to view repository changes.
+- GitHub Desktop was used to view repository changes.
 - GitHub was used to upload the repository.
 - Google fonts were used for the fonts.
-- Font awesome was used for the social media icons.
+- Font Awesome was used for the social media icons.
 - Google Chrome 
 - Safari (For testing)
 - Edge (For testing) 
@@ -293,7 +293,7 @@ I have a few warnings here. However, I still think this provides better accessib
 ## Fixed Bugs
 During the development process, I faced several issues with the flexbox not functioning correctly. This experience helped me gain a better understanding of Flexbox by reading more documentation to troubleshoot and fix the issue.
 
-One of the problems I encountered was the overflow of my "Imergery" section, which caused white space to appear on the right side of the screen on mobile devices. Initially, I tried to fix this by setting the HTML CSS attribute to "overflow:hidden", but this affected the 'burger' button, causing it to stop working. I reverted back to the original overflow settings and corrected the padding of the "Imergery" section, which was the root cause of the issue.
+One of the problems I encountered was the overflow of my "Imergery" section, which caused white space to appear on the right side of the screen on mobile devices. Initially, I tried to fix this by setting the HTML CSS attribute to "overflow:hidden", but this affected the 'burger' button, causing it to stop working. I reverted back to the original overflow settings and corrected the width of the "Imergery" section, which was the root cause of the issue.
 
 Furthermore, I faced an issue with the sizing of my images that were not appearing correctly on both mobile and desktop devices. I managed to fix this issue by adding both width and height attributes to each image.
 
@@ -334,6 +334,7 @@ Tutorial and documentation used:
 - https://www.w3schools.com/html/
 - https://developer.mozilla.org/en-US/docs/
 - https://css-tricks.com/
+- AI
 
 Throughout the page, Fontawesome was utilized for the favicons.
 
@@ -345,7 +346,7 @@ Inspiration for some features came from templates created by this user:
 
 Media
 
-Images used during the development of this site were taken from  https://unsplash.com/ and https://www.pexels.com/ 
+Images used during the development of this site were taken from  https://unsplash.com/, https://www.pexels.com/ and  https://www.freepik.com/ 
 
 
 
