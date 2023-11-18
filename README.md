@@ -79,8 +79,8 @@ A link to the wireframes can be found <a href="https://github.com/nathan-cool/En
 ## Colour Scheme
 - The website's colour scheme is colourful yet minimalist.
 - The colours of each section are in contrast to one another.
-  #F3F1DE
-  #DF7A5E
+![image](https://github.com/nathan-cool/Endometriosis_Ireland/assets/127421398/262dd970-ce35-4998-8095-b39c69559d0b)
+
   
 
 ## Typography
