@@ -38,7 +38,7 @@ font-weight: 300;
 }
 /*p font size and weight*/
 p {
-font-size: 1rem;
+font-size: 0.9rem;
 text-decoration: none;
 font-weight: 300;
 }
@@ -231,13 +231,12 @@ flex-direction: column;
 /*Image buttons*/
 .imagebuttons {
 width: 200px;
-height: 50px;
 background-color: #2e4052;
 color: #ffffff;
 border: none;
 border-radius: 3px;
 margin: 1rem;
-padding: 10px;
+padding: 1rem;
 }
 
 .imagebuttons:hover {
@@ -285,8 +284,7 @@ background-color: #3d405b;
 /*Info box*/
 .infobox {
   padding: 2.1rem;
-margin: 1rem;
-width: 1000px;
+  width: 900px;
 max-width: 100%;
 
 }
@@ -513,6 +511,7 @@ width: 50%;
 }
 .infobox {
 max-width: 80%;
+width: 100%;
 text-align: left;
 }
 #info {
@@ -534,6 +533,11 @@ h1 {
   font-size: 1.5rem;
   font-weight: 300;
   }
+  .imagecontainer{
+    max-width: 80%;
+    width: 100%;
+    margin: auto;
+  }
 }
 
 
@@ -541,6 +545,16 @@ h1 {
  
     .infobox{
       max-width: 40%;
+      width: 100%;
     }
+    #info {
+      padding: 2rem;
+  
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box!important;
+      }
   
 }
+
