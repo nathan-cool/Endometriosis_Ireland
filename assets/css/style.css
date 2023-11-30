@@ -8,6 +8,7 @@
   /*Scroll effect set to smooth*/
   html {
   scroll-behavior: smooth;
+  scroll-padding-top: 3.43rem;
   }
   
   body {
@@ -19,7 +20,7 @@
   max-width: 120rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ffffff
+  background-color: #ffffff;
   }
   
   /*Logo lettering*/
@@ -184,7 +185,7 @@
   height: 100vh;
   padding: 1.25rem;
   background-color: #f4f1de;
-  max-height: 80vh;
+  max-height: 50vh;
   line-height: 1.5625rem;
   color: #000000;
   }
@@ -283,10 +284,10 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
-  color: #ffffff;
+  color:#ffffff;
   line-height: 1.5625rem;
   background-color: #3d405b;
-  max-height: 80vh;
+
   }
   
   /*Info box*/
@@ -318,6 +319,7 @@
   justify-content: center;
   text-align: center;
   height: 100vh;
+  max-height: 50vh;
   padding: 1.25rem;
   margin: 0 auto;
   background-color: #f4f1de;
@@ -388,9 +390,6 @@
   #contactformheader {
   font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 2rem;
-  border-bottom: #000000 solid 1px;
-  padding-bottom: 2.5rem;
   font-weight: 300;
   }
   
@@ -422,9 +421,8 @@
   }
   
   /*Contact us form border above button*/
-  #lastbreak {
+  #submit-button {
   width: 100%;
-  border-top: #2e4052 solid 1px;
   padding-top: 2.0625rem;
   display: flex;
   justify-content: center;
@@ -447,12 +445,18 @@
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
   margin-right: 0.625rem;
+  align-items: center;
+  justify-content: center;
   }
+
+  
   
   /*Footer list*/
   #footerlinks li {
   display: flex;
-  padding: 0.625rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-right: 4rem;
   }
   
   /*Footer Links Links*/
@@ -465,6 +469,19 @@
   
   #footerlinks a:hover {
   color: #e07a5f;
+  }
+
+  #imagelink{
+    font-size: 0.5rem;
+  }
+
+  hr{
+    width: 100%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f4f1de;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
   }
   
   #wrongpage{
@@ -543,6 +560,7 @@
       max-width: 80%;
       width: 100%;
       margin: auto;
+      
     }
   }
   
