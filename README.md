@@ -387,8 +387,8 @@ Step 4: Click on the "Save" button.
 
 # Credits
 I would like to express my gratitude to the Slack Community for their invaluable assistance.
-Stephen Seagrave for helping me throughout my coding 
-My mentor Brian Macharia 
+Stephen Seagrave for helping me throughout my coding.
+My mentor Brian Macharia. 
 
 
 # Contents
