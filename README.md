@@ -298,7 +298,7 @@ One of the problems I encountered was the overflow of my "Imergery" section, whi
 
 Furthermore, I faced an issue with the sizing of my images that were not appearing correctly on both mobile and desktop devices. I managed to fix this issue by adding both width and height attributes to each image.
 
-Lastly, I had initially planned to use the font colour #F4F1DE throughout my website but later decided against it as I thought that #FFFFFF would provide better contrast with the background.
+Lastly, I had initially planned to use the font colour #F4F1DE throughout my website but later decided against it as I thought that #FFFFFF and #000000. would provide better contrast with the background.
 
 ## Implementation:
 During development, the developer tools in Google Chrome were used primarily for testing devices. The selector tool was used to select certain elements on the page, and this was done on each device by selecting the said device on developer tools. Design changes were implemented from the developer tools to see what the design or design change would look like. This greatly helped in the speed the ideas could be implemented. The website was tested on each device by opening the index.html in the live server, a plugin on Visual Studio Code. From there, developer tools were opened, and elements were first checked to make sure they were working as expected. Then, the code on developer tools was checked if the element worked as expected. If the element worked as expected, the next element was tested. The dimensions: responsive were also used to check the responsiveness of the website.
@@ -315,6 +315,10 @@ Step 3: Under the "Source" section, select the branch you want to use for GitHub
 Step 4: Click on the "Save" button. 
 
 # Credits
+I would like to express my gratitude to the Slack Community for their invaluable assistance.
+Stephen Seagrave for helping me throughout my coding 
+My mentor Brian Macharia 
+
 
 # Contents
 The content about Endometriosis and Endometriosis Ireland was sourced from Wikipedia and the website Endometriosis.ie of Endometriosis Ireland. I have provided the links below.
