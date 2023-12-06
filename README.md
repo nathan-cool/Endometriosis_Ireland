@@ -273,6 +273,77 @@ At the beginning of the project, a mobile-first design was implemented and adjus
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Test Method</th>
+      <th>Expected Outcome</th>
+      <th>Test Result</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Navigation Bar</td>
+      <td>Manual Testing on Browsers</td>
+      <td>Links navigate correctly, responsive design</td>
+      <td>Pass</td>
+      <td>Tested on Chrome, Safari, Edge</td>
+    </tr>
+    <tr>
+      <td>Hero Image</td>
+      <td>Visual Inspection</td>
+      <td>Image is clear, overlay text readable</td>
+      <td>Pass</td>
+      <td>Responsive on all device sizes</td>
+    </tr>
+    <tr>
+      <td>About Section</td>
+      <td>Device Testing, Visual Check</td>
+      <td>Text is responsive and readable across devices</td>
+      <td>Pass</td>
+      <td>Consistent font and size</td>
+    </tr>
+    <tr>
+      <td>Images Section</td>
+      <td>Click-through Testing</td>
+      <td>Images link to correct pages, hover effect works</td>
+      <td>Pass</td>
+      <td>Checked hover effect on desktop</td>
+    </tr>
+    <tr>
+      <td>Information Section</td>
+      <td>Content Verification</td>
+      <td>Accurate and up-to-date information about condition</td>
+      <td>Pass</td>
+      <td>Cross-checked with medical resources</td>
+    </tr>
+    <tr>
+      <td>Donate Section</td>
+      <td>Functional Testing</td>
+      <td>Donation button links to correct page</td>
+      <td>Pass</td>
+      <td>Tested button responsiveness on different devices</td>
+    </tr>
+    <tr>
+      <td>Contact Us Section</td>
+      <td>Form Submission Test</td>
+      <td>Form submitted correctly, required fields validated</td>
+      <td>Pass</td>
+      <td>Tested form responsiveness and field requirements</td>
+    </tr>
+    <tr>
+      <td>Footer</td>
+      <td>Manual Testing</td>
+      <td>Social media links work, layout is consistent</td>
+      <td>Pass</td>
+      <td>Social media links open in a new tab</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 ## HTML-W3C-Validator 
