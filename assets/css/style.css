@@ -185,7 +185,7 @@
   height: 100vh;
   padding: 1.25rem;
   background-color: #f4f1de;
-  max-height: 50vh;
+  max-height: 80vh;
   line-height: 1.5625rem;
   color: #000000;
   }
@@ -319,7 +319,7 @@
   justify-content: center;
   text-align: center;
   height: 100vh;
-  max-height: 50vh;
+  max-height: 80vh;
   padding: 1.25rem;
   margin: 0 auto;
   background-color: #f4f1de;
